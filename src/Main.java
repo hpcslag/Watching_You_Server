@@ -56,22 +56,22 @@ public class Main extends Application {
         title.setWrappingWidth(300);
         
         Text description = new Text(
-                "Hallo, vor Webcam-Dienst starten, müssen Sie Webcam-Gerät zu überprüfen Erfolg installiert sind.\n" +
+                "Hallo,Before start the webcam server, you have to check your webcam device has been installed!\n" +
                 "\n" +
-                "Wenn Sie gerade nicht, was in \"Webcam Gerät\" zu sehen ist, bedeutet es, das Gerät konnte nicht gefunden werden.");
+                "If you don't install webcam driver, program will not work. ");
         description.setTextAlignment(TextAlignment.CENTER);
         description.setY(75);
         description.setX(5);
         description.setFont(Font.font("Calibri"));
         description.setWrappingWidth(300);
         
-        Label w_selector_text = new Label("WebCam Gerät: ");
+        Label w_selector_text = new Label("WebCam Device: ");
         w_selector_text.setFont(Font.font("Calibri",FontWeight.BOLD,14));
         w_selector_text.setTranslateY(170);
         w_selector_text.setTranslateX(25);
         
         ChoiceBox select_device = new ChoiceBox();
-        select_device.setItems(FXCollections.observableArrayList("Bitte wählen Geräte",new Separator()));
+        select_device.setItems(FXCollections.observableArrayList("Please Select Webcam Device",new Separator()));
         select_device.getItems().addAll(Webcam.getWebcams());
         select_device.setTranslateY(167);
         select_device.setTranslateX(125);
