@@ -17,3 +17,7 @@ About this project
 I using [webcam-capture](https://github.com/sarxos/webcam-capture) project to make this.
 
 and This server has live stream feature, I using the example project [webcam-capture-live-streaming](https://github.com/sarxos/webcam-capture/tree/master/webcam-capture-examples/webcam-capture-live-streaming) by [hepin1989](https://github.com/hepin1989).
+
+Screenshot
+---
+![](http://i.imgur.com/RlBHlz2.png)
