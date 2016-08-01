@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="WebCamAccessControlManagement.jnlp">
+  <information>
+    <title>WebCamAccessControlManagement</title>
+    <vendor>hpcslag</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="WebCamAccessControlManagement.jar" size="5591" download="eager" />
+    <jar href="lib\StreamingServer.jar" size="81515" download="eager" />
+    <jar href="lib\bridj-0.6.2.jar" size="878674" download="eager" />
+    <jar href="lib\dx-1.7.jar" size="981817" download="eager" />
+    <jar href="lib\filters-2.0.235-1.jar" size="382939" download="eager" />
+    <jar href="lib\netty-3.10.6.Final.jar" size="1292696" download="eager" />
+    <jar href="lib\slf4j-api-1.7.2.jar" size="26083" download="eager" />
+    <jar href="lib\slf4j-jdk14-1.7.2.jar" size="7845" download="eager" />
+    <jar href="lib\slf4j-simple-1.7.2.jar" size="10638" download="eager" />
+    <jar href="lib\thumbnailator-0.4.3.jar" size="101257" download="eager" />
+    <jar href="lib\webcam-capture-0.3.10.jar" size="409084" download="eager" />
+    <jar href="lib\xuggle-xuggler-5.4.jar" size="40318152" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="WebCamAccessControlManagement" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="Main"  name="WebCamAccessControlManagement" />
+  <update check="always"/>
+</jnlp>
