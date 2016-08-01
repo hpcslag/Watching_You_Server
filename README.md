@@ -8,6 +8,10 @@ Just want to run program
 ---
 See [release](https://github.com/hpcslag/Watching_You_Server/releases) detail.
 
+Download viewer
+---
+in this project [Watching you client](https://github.com/hpcslag/Watching_You_Client)
+
 Install
 ---
 I think deploy is very hard, so I keep the netbeans project inside.
